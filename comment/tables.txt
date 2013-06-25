@@ -1,0 +1,35 @@
+
+Database name : test
+
+
+Details of tables in databases:-
+
+* login_student
+- s_no  int primary key auto_increment
+- cc_login_id  varchar(20)
+- cc_password varchar(20)
+
+* Login_maintanance
+- s_no  int primary key auto_increment
+- cc_login_id  varchar(20)
+- cc_password varchar(20)
+
+* complaint
+- s_no int primary key auto_increment
+- id varchar(20)
+- name varchar(20)
+- curr_time datetime
+- complaint_type varchar(30) (academics,mess,electricity,plumber,carpenter,washerman)
+- hall
+- room_no
+- complaint	text
+- file_address (text/jepg/gif/pnj/pdf **optional) varchar(100) default null
+- suggestion(** optional)  text
+- priority_order(radio button default normal) int(2)
+- Phone_no varchar(20)
+
+
+
+
+
+

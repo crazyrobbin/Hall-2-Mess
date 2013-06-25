@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+Login </title>
+<link rel="shortcut icon" href="http://localhost/favicon.ico" />
+</head>
+<body>
+<br>
+<h1>Complaint Box</h1>
+<hr color="green"><br>
+<br><br>
+<fieldset>
+<legend>Login</legend>
+<form action="http://localhost/login.php" method="POST" name="home" onsubmit="return validateForm()">
+Enter CC Login ID :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;<input type="text" name="loginid"><br>
+Enter CC Login Password :&nbsp;&nbsp;<input type="password" name="password"><br>
+<b>Login as:</b><br>
+<input type="radio" name="option" value='student' id="s" checked><label for="s">Student</label><br>
+<input type="radio" name="option" value='maintenance' id="m"> <label for="m">Maintenance</label><br>
+<input type="submit" value="Login">
+</form>
+</fieldset>
+<script>
+function validateForm()
+{
+var x=document.forms["home"]["loginid"].value;
+if (x==null || x=="")
+  {
+  alert("CC Login Id must be filled out");
+  return false;
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+http://www.w3schools.com/
+
+CTRL + U
+
+
+HTML
+
+COMPLAINER OR MAINTENNACE 	(radio button)
+
+FORM FOR SUBMITIING COMPLAINT
+{
+- STUDENTS , PROFS, STAFF (AUTHENTICATION)	(radio button)
+
+- TYPE OF COMPLAINT	(drop down)
+- ADDRESS		(address of complaint)
+- DESCRIPTION OF COMPLAINT	(text)
+- attach a file(text/jepg/gif/pnj/pdf **optional)
+- any suggestion (** optional)
+- priority order(radio button default normal)
+- Phone No.
+
+- if this page opens to check status add another field complain status and make the page un editable
+}
+arter submission of complaint ,give a complain id to the complainer
+
+{check your complaint status(link)
+another web page
+- your last complaints {decription link} redirect to complaint page
+}
+
+FORM FOR VIEWING COMPLAINT
+
+- MAINTENANCE DEPT
+
+- LIST THE COMPLAINTS (by type of complaint) links...
+
+	- address , date , priority  {same page will open that opens when complainer wants to see the status}
+		-only change is that he can set the STATUS
+
+- SEARCH THE COMPLAINTS
+BY TYPE			(done)
+BY ADRESS (HALL NUM)	(not possible)
+BY DATE  		
+BY PRIORITY
+BY COMPLAINER TYPE
+BY COMPLAINT ID		{that page will open}
+
+
+JAVASCRIPT
+
+PHP
+
+MYSQL[]
+
+bit.ly/noproxy
+
+
+
+
+
+1). Remove priority order
+2). List of halls, time of availability
+3). Javascript for checking required fields in submit form
+4). Status update, delete for radio button with password
+5). Type of complaints
+6). Status- active, processing, completed
+7). Search form for complaints (html)
